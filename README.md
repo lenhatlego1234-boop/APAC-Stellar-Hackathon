@@ -1,44 +1,50 @@
-# ChainSensor Oracle
+# Hi there, I'm [Tên của bạn] 👋
 
-## Project Title
-ChainSensor Oracle
+### 🚀 Computer Engineering Student | IoT & Web3 Enthusiast
 
-## Project Description
-ChainSensor Oracle is a decentralized physical infrastructure network (DePIN) and oracle platform built on the Stellar blockchain using the Soroban SDK. It securely bridges physical environmental data—such as air quality (PM2.5), temperature, and humidity collected by microcontroller nodes (ESP32/Arduino)—directly to the blockchain. This ensures that real-world environmental metrics are logged transparently, immutably, and are readily available for other smart contracts to consume.
+I am currently a Computer Engineering student at **Saigon College**, passionate about bridging the gap between physical hardware and decentralized networks. I enjoy working on embedded systems, digital logic design, and exploring how microcontrollers can interact with blockchain technology (DePIN).
 
-## Project Vision
-The vision of ChainSensor Oracle is to create a trustless, crowdsourced network of environmental data. By eliminating centralized databases, it allows researchers, automated smart cities, and climate-focused decentralized applications (dApps) to access verifiable, real-time climate metrics directly from hardware sensors, fostering a transparent ecosystem for environmental monitoring and automated carbon credit calculations.
+When I'm not soldering circuits or writing code, you can find me optimizing game settings on my Samsung Galaxy or playing FC Online, Free Fire, and Minecraft.
 
-## Key Features
-- **Data Anchoring:** Securely logs physical sensor readings (e.g., analog/digital data from MQ135 or DHT22) onto the blockchain.
-- **Node Whitelisting:** Admin-controlled registration for verified IoT nodes to prevent spam or malicious data injection.
-- **Immutable Timestamping:** Every sensor reading is permanently recorded with a blockchain timestamp for verifiable auditing.
-- **On-Chain Oracle Access:** Provides a secure interface for other Soroban smart contracts to query the latest environmental data.
-- **Tamper-Proof Ecosystem:** Hardware tampering is mitigated by ensuring data integrity from the edge device to the ledger.
+---
 
-## Usage Instructions
-1. **Initialize Contract:** Deploy the contract and set the administrator account.
-2. **Register Node:** The admin registers a specific hardware device ID (e.g., `ESP32_AQI_STATION_1`).
-3. **Push Data:** The physical IoT device uses an API gateway or direct client to push serialized sensor data to the `update_metrics` function.
-4. **Query Data:** Third-party dApps or users call the `get_latest_metrics` function to retrieve the most recent air quality or temperature data.
-5. **Audit History:** Researchers can scan the blockchain ledger to extract the historical data pattern of any registered sensor.
+### 🛠️ Tech Stack & Tools
 
-## Future Scope
-- **Tokenized Incentives:** Issue Soroban-based utility tokens to reward users who run active, calibrated sensor nodes (DePIN model).
-- **Cryptographic Hardware Signatures:** Implement ECDSA or Ed25519 signature verification directly on the ESP32 to ensure data originates from the exact hardware module.
-- **Aggregated Data Feeds:** Calculate the average metrics of multiple sensors in a geographical area directly on-chain.
-- **Web Dashboard:** Build a decentralized frontend (dApp) to visualize real-world maps overlaying the blockchain sensor data.
+**Languages:** ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) 
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) 
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 
+![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
 
-## Technology Stack
-- **Rust and Soroban SDK** for high-performance and secure smart contract logic.
-- **Stellar Blockchain** for fast, micro-transaction friendly decentralized storage.
-- **C/C++ & IoT Protocols** for programming the physical sensor endpoints.
+**Hardware & IoT:** ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white) 
+![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white) 
+![Raspberry Pi](https://img.shields.io/badge/-RaspberryPi-C51A4A?style=for-the-badge&logo=Raspberry-Pi)
 
-## Contribution
-Contributions are encouraged from embedded systems engineers, PCB designers, and Rust developers. Whether you are building the physical nodes or optimizing the Soroban contract, please fork the repository and submit a pull request.
+**Software & Simulation:** ![VS Code](https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white) 
+![Proteus](https://img.shields.io/badge/Proteus_8-005C8A?style=for-the-badge&logo=spinnaker&logoColor=white) 
+![Wokwi](https://img.shields.io/badge/Wokwi-Simulation-blue?style=for-the-badge)
 
-## License
-This project is licensed under the MIT License.
+---
 
-### Contract Detail
-ID: CB7ZVXDKLDGUAW3H5CAKZXIURM64TNPXMVZGG6EZOHPVXHUGZNBLWXYZ
+### 💡 Featured Projects
+
+* **ChainSensor Oracle (DePIN):** A decentralized physical infrastructure network bridging ESP32/Arduino environmental sensors to the Stellar blockchain using Soroban SDK.
+* **Smart Irrigation System:** An automated system utilizing Arduino and soil moisture sensors to control water pumps, fully simulated and tested on Wokwi.
+* **Digital Logic Electronic Dice:** A classic embedded project built with ATmega328P and C/C++, applying Boolean algebra and logic gate reduction principles.
+
+---
+
+### 📈 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=radium&hide_border=true" alt="GitHub Stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=radium&hide_border=true" alt="GitHub Streak" />
+</p>
+
+---
+
+### 📫 How to reach me
+* **Email:** your-email@example.com
+* **LinkedIn:** [Your Profile Link](#)
